@@ -1,0 +1,35 @@
+.Navbar{
+    border-bottom: 2px solid #0000001A;
+}
+.nav{
+    font-size: 1rem;
+    display: flex;
+    justify-content:space-between;
+    height: 80px;
+    cursor: pointer;
+}
+.navLogo{
+    width: 6.875rem;
+    float: left;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.navLinks{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    width: 31.5625rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+    font-weight: 600;
+}
+
+.socials{
+    width: 8.375rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top:auto;
+    margin-bottom: auto;
+    height: 22px;
+}

@@ -1,0 +1,133 @@
+.carouselPack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 2rem;
+    border: solid 12px white;
+    overflow: hidden;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+}
+.carouselPack .left{
+    background:#E7FAFE;
+    padding:8%;
+}
+.carouselPack .left .carouselPill{
+    background:white;
+    display: flex;
+    height: 45px;
+    padding: 2%;
+    border-radius: 2rem;
+    width: 9.75rem;
+    
+}
+.carouselPack .left span .pillImg{
+    width: 1.5rem;
+    margin: auto;
+}
+.carouselPack .left span .carouselPillTxt{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: auto;
+}
+.carouselPack .left .carouselRecipeDetails h1{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.carouselPack .left .carouselRecipeDetails .recipeDetailsTxt{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #00000099;
+}
+.carouselPack .left .carouselRecipeDetails .pills{
+    display: flex;
+    gap: 2rem;
+    margin-top: 40px;
+}
+.carouselPack .left .carouselRecipeDetails .pills .pillsBtn{
+    background: #0000000D;
+    display: flex;
+    height: 40px;
+    padding: 2%;
+    border-radius: 2rem;
+    width: 9.75rem;
+}
+.carouselPack .left .carouselRecipeDetails .pillsImg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto 0;    
+}
+#pillsTxt{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0;
+    letter-spacing: -0.02em;
+    margin: auto ;
+}
+.lastChild{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.lastChild .author{
+    display: flex;
+    width: 15.5rem;
+}
+.author .authorImg{
+    width: 3.125rem !important;
+    height: 3.125rem !important;
+    margin:15px;
+}
+.author .authorName{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 10.36px;
+    letter-spacing: -0.02em;
+}
+.author .date{
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+}
+.recipeVideo{
+    width: 12.5rem;
+    height: 60px;
+    border-radius: 1rem;
+    background: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.viewRecipe{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    margin:auto 10px;
+}
+.playBtn{
+    width: 1.2188rem;
+    height: 19.5px;
+    margin: auto 15px;
+    margin-left: -30px;
+}
+.thumbsUp{
+    position: absolute;
+    width: 9.375rem !important;
+    height: 150px;
+    top: 55px;
+    left: 570px;
+}

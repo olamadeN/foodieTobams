@@ -1,0 +1,148 @@
+.categories{
+    height: 342px;
+    margin-top: 140px;
+}
+.categories .title{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.categories .title h2{
+    display: flex;
+    height: 60px;
+    margin: 0;
+}
+.categories .title .viewAll{
+    background: #E7FAFE;
+    padding-top: 1.5%;
+    font-weight: 600;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+    width: 12.5rem;
+}
+.categories .categoryItems{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:1rem;
+    margin-top:90px;
+}
+.categories .categoryItems .catItem{
+    width: 11.25rem;
+    border-radius: 1.875rem;
+}
+.categories .categoryItems .catItemImg{
+    width: 6.25rem;
+    height: 100px;
+    margin: auto 3.125rem;
+}
+.categories .categoryItems .catName{
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 21.78px;
+    letter-spacing: -0.02em;
+    margin-top: 40px;
+    text-align: center;
+}
+
+/*SIMPLE AND TASTY SESSION*/
+
+.tastyHeading {
+    text-align: center;
+}
+.tastySubtitle{
+    width: 44.125rem;
+    word-wrap:normal;
+    overflow-wrap: normal;
+    margin: auto auto;
+    margin-top: -10px;
+}
+.tastyCardGrid{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:3rem;
+    overflow: hidden;
+}
+
+/* EVERYONE CAN BE A CHEF*/
+.chef{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1rem;
+    height: 597px;
+    overflow: hidden;
+}
+.chef .chefTxt{
+    margin: auto auto;
+}
+.chef .chefBtn{
+    margin-top: 75px;
+    background: #000000;
+    color: white;
+    width: 11.25rem;
+    padding: 1.35rem;
+    text-align: center;
+}
+
+/* FOODIE INSTAGRAM*/
+.foodieInsta{
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    height: 964px;
+    overflow: hidden;
+}
+.instaHeading{
+    text-align: center;
+    width:50.5rem;
+    word-wrap: normal;
+    margin: auto auto;
+}
+.instaFeed{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1rem;
+    margin-top: 80px;
+}
+.visitFeedBtn{
+    margin: auto auto;
+    margin-top: 50px;
+    background: #000000;
+    color: white;
+    width: 14.3125rem;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.visitFeedBtn p{
+    margin-top: 11px !important;
+    font-size: 0.875rem;
+}
+.visitFeedBtn .btnInner{ 
+    display: flex;
+    margin-top: 9px;
+}
+
+/* Recipe to make your day */
+.recipeDayheading{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+}
+.recipeDayheading h2{
+    display: flex;
+    width:31.6875rem;
+    height: 116px;
+}
+.recipeDayheading p{
+    display: flex;
+    width:38.75rem;
+    height: 56px;
+    margin: auto auto;
+}
+.dayCardGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1.5rem;
+    overflow: hidden;
+}

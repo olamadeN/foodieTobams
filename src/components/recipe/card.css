@@ -1,0 +1,33 @@
+.recipeCard{
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.cardImg{
+    object-fit: cover;
+    border-radius: 2rem;
+    width: auto;
+    margin: auto 15px;
+}
+.shift{
+    width: 92%;
+    margin: auto auto;
+}
+.cardRecipeName{
+    font-size: 24px;
+    font-weight: 600;
+    overflow-wrap: normal;
+    word-wrap: normal;
+    letter-spacing: -0.04em;
+    margin: 30px auto;
+}
+.cardOtherDetails{
+    display: flex;
+    gap: 2rem;
+}
+.cardOtherDetails .duration, .type{
+    font-weight: 500;
+    line-height: 0;
+    letter-spacing: -0.02em;
+    display: flex;
+    gap: 0.5rem;  
+}
