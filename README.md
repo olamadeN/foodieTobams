@@ -18,7 +18,8 @@ Install create-react-app npm package globally. This will help to easily run the 
 
 ## Installation Instructions
 1. clone the project into your local repository
-#       2. install depenpendencies and npm package. On your text editor navigate the project folder and type the following command to install all npm packages and dependencies.npm install
+2. install depenpendencies and npm package. On your text editor navigate the project folder and type the following command to install all npm packages and dependencies.
+#       npm install
 3. Run the project on your local server. to do this type in the code below
 ```npm start```
 React will spin up a local server **localhost:3000** on which you can view the website in development
