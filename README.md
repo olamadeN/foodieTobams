@@ -24,7 +24,10 @@ Install create-react-app npm package globally. This will help to easily run the 
 ```npm start```
 React will spin up a local server **localhost:3000** on which you can view the website in development
 4. After it start, your browser should automatically open and a tab of localhost:3000 should be up. but if does not happen, open up your browser and type in localhost:3000 in the address bar.
-
+## How To Use
+1. The landing page is the first page of the figam file
+2. to go to the second page please click on the cards that have a heart sign on them or visit the url: https://tobams-foodieland.firebaseapp.com/recipe-details
+3. In the second page the checkBoxes work so click on them to expand and read the content
 ## Known Issues
 As this was made for for a technical interview, mobile responsivness was not compulsory and i was also pressed fro time. Therefore this code has no mobile responsivness.
 
