@@ -214,7 +214,7 @@ const LandingPage = () => {
                 </div>
                 <div className="categoryItems">
                     {categoryData.map((data)=> {
-                        return <div className="catItem" id={data.id} style={{background:data.back}}>
+                        return <div className="catItem" id={data.id} style={{background:data.back}} data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                             <img src={data.img} alt="" className="catItemImg" />
                             <p className="catName">{data.name}</p>
                         </div>
@@ -237,7 +237,7 @@ const LandingPage = () => {
             </div>
 
             {/* EVERYONE CAN BE A CHEF */}
-            <div className="container section chef">
+            <div className="container section chef" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                 <div className="chefTxt">
                     <h2>Everyone can be a chef in their own kitchen</h2>
                     <p className="subTitle">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
@@ -254,7 +254,7 @@ const LandingPage = () => {
                         <h2>Check out @foodieland on Instagram</h2>
                         <p className="subTitle">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
                     </div>
-                    <div className="instaFeed">
+                    <div className="instaFeed" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                         <img src={feed1} alt="instagram feed" />
                         <img src={feed2} alt="instagram feed" />
                         <img src={feed3} alt="instagram feed" />

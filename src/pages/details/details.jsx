@@ -121,10 +121,10 @@ const RecipeDetailsPage = () => {
                 {/* HEADER VIDEO */}
                 <br /><br /><br />
                 <div className="detailsGrid">
-                    <div className="detailsGridLeft">
+                    <div className="detailsGridLeft" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                         <img src={videoImg} alt="" />
                     </div>
-                    <div className="detailsGrid">
+                    <div className="detailsGrid" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                         <div className="detailsGridLeft">
                             <div className="nutritionInfo">
                                 <h3>Nutrition Information</h3>
@@ -188,7 +188,7 @@ const RecipeDetailsPage = () => {
                         <br /><br /><br />
                         <h5>For the sauce</h5>
                         <br />
-                        <div className="checkBoxes">
+                        <div className="checkBoxes" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">
                             <label style={checked? {color:'silver'}: {color:"black"}} htmlFor="check1">
                                 <input className='checkbox' onChange={handleChange} type="checkbox" name="check1" id="check1" /> 
                                 Lorem ipsum dolor sit amet 
@@ -207,7 +207,7 @@ const RecipeDetailsPage = () => {
                 <div className="detailsGridRight">
                     <div className="otherRecipe">
                         <h3>Other Recipe</h3>
-                        <div className="otherContainer">                                
+                        <div className="otherContainer" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600">                                
                             <div className="orItem">
                                 <img src={orImg1}  alt="" className="orImg" />
                                 <div >
@@ -230,7 +230,7 @@ const RecipeDetailsPage = () => {
                                 </div>                     
                             </div>
                             <br /><br />
-                            <img src={greencard} alt="" className="orGreencard" />
+                            <img src={greencard} alt="" className="orGreencard" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-delay="120" data-aos-duration="600"/>
                         </div>
                     </div>
                 </div>
