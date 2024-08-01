@@ -1,7 +1,7 @@
-
 import CarouselComponent from "../../components/carousel/carousel";
 import Navbar from "../../components/navbar/navbar";
 import RecipeCard from "../../components/recipe/card";
+
 import { FaInstagram } from "react-icons/fa";
 import './home.css';
 import catImg1 from "../../image/categories/breakfast.png";
@@ -36,6 +36,7 @@ import day6 from "../../image/dayRecipe/day6.png";
 import day7 from "../../image/dayRecipe/day7.png";
 import day8 from "../../image/dayRecipe/day8.png";
 import Newsletter from "../../components/newsletter/newsletter";
+import Footer from "../../components/footer/footer";
 
 const LandingPage = () => {
     const categoryData = [
@@ -195,10 +196,16 @@ const LandingPage = () => {
     ]
     return ( 
         <div>
-
+            {/* NAVIGATION BAR */}
             <Navbar />
-            <br /><br />     
-            <CarouselComponent />
+            <br />   
+
+            {/* SLIDER BANNER */}
+            <header>
+                <CarouselComponent />
+            </header>
+            
+
             {/* CATEGORY COMPONENT */}
             <div className="categories container">            
                 <div className="title">
@@ -276,6 +283,9 @@ const LandingPage = () => {
             <div className="section">
                 <Newsletter />
             </div>
+
+            {/* FOOTER */}
+            <Footer />
         </div>
     );
 }

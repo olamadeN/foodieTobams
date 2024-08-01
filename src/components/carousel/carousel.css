@@ -81,14 +81,18 @@
     justify-content: space-between;
     margin-top: 70px;
 }
-.lastChild .author{
+.author{
     display: flex;
-    width: 15.5rem;
+    width: max-content;
+    gap: 0.7rem;
 }
 .author .authorImg{
     width: 3.125rem !important;
     height: 3.125rem !important;
-    margin:15px;
+    margin:15px 0;
+}
+.authorIcon{
+    margin: 19px auto;
 }
 .author .authorName{
     font-size: 1rem;

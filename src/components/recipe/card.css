@@ -1,12 +1,25 @@
 .recipeCard{
     overflow: hidden;
     border-radius: 2rem;
+    position: relative;
 }
 .cardImg{
     object-fit: cover;
     border-radius: 2rem;
     width: auto;
     margin: auto 15px;
+   
+}
+.like{
+    padding: 3%;
+    background: white;
+    border-radius: 3rem;
+    display: flex;
+    position: absolute;
+    width: 5%;
+    top:5%;
+    right:8%;
+    cursor: pointer;
 }
 .shift{
     width: 92%;

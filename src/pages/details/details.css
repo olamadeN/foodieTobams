@@ -1,0 +1,164 @@
+/* REUSED STYLES*/
+.detailsGrid{
+    display: grid;
+    grid-template-columns: 52.5rem 25rem;
+    gap:1rem;
+    overflow: hidden;
+}
+
+/*NORMAL STYLES*/
+.recipeDetailsH2{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 77.45px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+.dfoodDetails{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: stretch;
+}
+.dfoodDetails > .separator{
+    border-right:1px solid #0000001A ;
+    padding-right: 2.3rem;
+}
+.detailsGridRight{
+    position: relative;
+}
+.docCTA{
+    display: flex;
+    position: absolute;
+    bottom: 21%;
+    right: 0;
+    gap: 1rem;
+    cursor: pointer;
+}
+.docCTA span{
+    background: #E7FAFE;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 13rem;
+    text-align: center;
+}
+.docCTA p{
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 14.52px;
+    letter-spacing: 0.1em;
+    
+}
+/* Header video*/
+.nutritionInfo{
+    background: #E7FAFE;
+    height: 572px;
+    border-radius: 2rem;
+    width: 23rem;
+    padding: 1rem;
+}
+.nutritionInfo h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-align: left;   
+}
+.nutritionInfo .jaraInfo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 90px;
+    text-align: center;
+}
+.nutrient{
+    padding: 0.25rem;
+    border-bottom: 1px solid #0000001A;
+    display: flex;
+    justify-content: space-between;
+}
+.nutrient p{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 21.78px;
+    letter-spacing: -0.04em;
+}
+
+/* INGREDIENT SECTION */
+.ingredientSection{
+    height: auto;
+}
+.ingredientSection h4{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 43.57px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin: 0;
+}
+.ingredientSection h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin: 0;
+}
+.checkBoxes label {
+    width: 840px;
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #0000001A;
+}
+.checkBoxes label input {
+    margin-right: 1rem;
+    background-color: black;
+}
+/*Right side of Other Recipe*/
+.orItem{
+    display: flex;
+    width: 25rem;
+    overflow: hidden;
+    gap: 0.7rem;
+    margin: 15px auto;
+}
+.orItem div{
+    margin: auto auto;
+}
+.orItem .orImg{
+    width: 11.25rem;
+    height: 120px;
+    margin:auto 0;
+}
+.orItem .orName{
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    
+}
+.orItem .orCook{
+    margin-top: -10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 16.94px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #00000099;
+}
+
+/* DIRECTION SECTION STYLING*/
+#dirLabel{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 29.05px;
+    border-bottom: 1px solid #0000001A;
+}
+.dirCheckBoxes{
+    padding-left: 1rem;
+}

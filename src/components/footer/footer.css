@@ -1,0 +1,50 @@
+.footer .topLayer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #0000001A;
+}
+.left .footerImg{
+    width:6.875rem;
+}
+.left .footersubTitle{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+}
+.right ul{
+    list-style-type: none;
+    display: flex;
+    gap:2.5rem;
+    cursor: pointer;
+}
+.right ul li{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 19.36px;
+    letter-spacing: -0.02em;
+}
+.footer .bottomLayer .bLayerContent{
+    display: flex;
+    
+}
+.bottomLayer .bLayerContent .copyright{
+    font-size: 1.025rem;
+    font-weight: 400;
+    line-height: 22.68px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    width:62%;
+}
+.bLayerContent .footerSocials{
+    display: flex;
+    margin: auto;
+    width: 38%;
+    justify-content: right;
+    cursor: pointer;
+}
+.bLayerContent .footerSocials .fsp{
+    display: flex;
+    width: auto;    
+    gap:4rem;
+}
