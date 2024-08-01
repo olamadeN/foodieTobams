@@ -27,7 +27,7 @@ const RecipeDetailsPage = () => {
     /* FUNCTION FOR CHECKBOX */
     const [checked, setChecked] = useState(false);
     const handleChange = () => {
-        setChecked(!checked);
+        checked ?setChecked(false): setChecked(true);
     };
 
     const dayRecipes = [
@@ -189,8 +189,8 @@ const RecipeDetailsPage = () => {
                         <h5>For the sauce</h5>
                         <br />
                         <div className="checkBoxes">
-                            <label style={checked? {color:'silver'}: {color:"black"}} htmlFor="">
-                                <input className='checkbox' onChange={handleChange} type="checkbox" name="" id="" /> 
+                            <label style={checked? {color:'silver'}: {color:"black"}} htmlFor="check1">
+                                <input className='checkbox' onChange={handleChange} type="checkbox" name="check1" id="check1" /> 
                                 Lorem ipsum dolor sit amet 
                             </label>
                             <label style={checked? {color:'silver'}: {color:"black"}} htmlFor="">

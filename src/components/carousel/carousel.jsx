@@ -10,7 +10,7 @@ import { PiForkKnifeFill } from "react-icons/pi";
 import { RiPlayCircleLine } from "react-icons/ri";
 const CarouselComponent = () => {
     return ( 
-        <div className="carousel ">
+        <div className="carousel" data-testid="carouselTestId">
             <Carousel showThumbs={false} showIndicators={false} showStatus={false} centerSlidePercentage={95} infiniteLoop={true} autoFocus={true} showArrows={false} centerMode={true} transitionTime={600} interval={5000} autoPlay={true}>
                 <div className="carouselPack container">
                     <div className="left">

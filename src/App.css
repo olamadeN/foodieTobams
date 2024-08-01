@@ -2,6 +2,16 @@
   width: 80rem;
   margin: auto auto;
 }
+a{
+  text-decoration: none !important;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
 h2{
   font-size: 3rem;
   font-weight: 600;

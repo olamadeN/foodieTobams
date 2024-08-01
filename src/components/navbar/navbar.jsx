@@ -2,6 +2,7 @@ import logo from '../../image/logo.png';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { HashLink } from 'react-router-hash-link';
 import './navbar.css';
 const Navbar = () => {
     return ( 
@@ -9,7 +10,7 @@ const Navbar = () => {
             <div className="nav container">
                 <img src={logo} className="navLogo" alt="foodieland logo" />
                 <ul className="navLinks">
-                    <li className="link">Home</li>
+                    <HashLink smooth='True' to="/"><li className="link">Home</li></HashLink>
                     <li className="link">Recipes</li>
                     <li className="link">Blog</li>
                     <li className="link">Contact</li>
