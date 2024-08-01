@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Tobamsfoodie
-a food recipe website done for the technical interview for Tobams Group internship
-=======
-# Getting Started with Create React App
+# FOODIE LAND
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A food recipe website made for the technical interview of Tobams Group
 
 ## Available Scripts
 
@@ -72,4 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 157450f (first commit and homepage almost done)
